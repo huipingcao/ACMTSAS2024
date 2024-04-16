@@ -1,0 +1,57 @@
+skylineGNN - 12/14/2022 01:15:38 PM : graph_folder, /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/C9_NY_NONE/C9_NY_NONE_5K
+skylineGNN - 12/14/2022 01:15:38 PM : data_folder, /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/C9_NY_NONE/C9_NY_NONE_5K
+skylineGNN - 12/14/2022 01:15:38 PM : paths_folder, /home/hchen/IntelliJProjects/java_SkylineGNN/Data/results_bbs/C9_NY/C9_NY_NONE_5K
+skylineGNN - 12/14/2022 01:15:38 PM : checkpoints_folder, /home/hchen/PycharmProjects/ICDE23/GNNquery/SkylineGNN_py/checkpoints
+skylineGNN - 12/14/2022 01:15:38 PM : log_folder, /home/hchen/PycharmProjects/ICDE23/GNNquery/SkylineGNN_py/logs
+skylineGNN - 12/14/2022 01:15:38 PM : disable_gpu, True
+skylineGNN - 12/14/2022 01:15:38 PM : no_epoch, 200
+skylineGNN - 12/14/2022 01:15:38 PM : node_dim, 2
+skylineGNN - 12/14/2022 01:15:38 PM : edge_dim, 3
+skylineGNN - 12/14/2022 01:15:38 PM : embed_dim, 64
+skylineGNN - 12/14/2022 01:15:38 PM : hidden_dim, 64
+skylineGNN - 12/14/2022 01:15:38 PM : disable_embed, False
+skylineGNN - 12/14/2022 01:15:38 PM : output_dim, 3
+skylineGNN - 12/14/2022 01:15:38 PM : gnn_name, Transformer
+skylineGNN - 12/14/2022 01:15:38 PM : heads, 1
+skylineGNN - 12/14/2022 01:15:38 PM : batch_size, 8
+skylineGNN - 12/14/2022 01:15:38 PM : disable_con_loss, False
+skylineGNN - 12/14/2022 01:15:38 PM : disable_node_normal, False
+skylineGNN - 12/14/2022 01:15:38 PM : =======================================================
+skylineGNN - 12/14/2022 01:15:38 PM : 
+
+skylineGNN - 12/14/2022 01:15:38 PM : Shape of nodes: torch.Size([5000, 2])
+skylineGNN - 12/14/2022 01:15:38 PM : directed graph: Data(x=[5000, 2], edge_index=[2, 12046], edge_attr=[12046, 3])
+skylineGNN - 12/14/2022 01:15:38 PM : undirected graph: Data(x=[5000, 2], edge_index=[2, 12046], edge_attr=[12046, 3])
+skylineGNN - 12/14/2022 01:15:38 PM : ==============================================================
+skylineGNN - 12/14/2022 01:15:38 PM : Number of nodes: 5000
+skylineGNN - 12/14/2022 01:15:38 PM : Number of edges: 12046
+skylineGNN - 12/14/2022 01:15:38 PM : Average node degree: 2.41
+skylineGNN - 12/14/2022 01:15:38 PM : Contains isolated nodes: False
+skylineGNN - 12/14/2022 01:15:38 PM : Contains self-loops: False
+skylineGNN - 12/14/2022 01:15:38 PM : Is undirected: True
+skylineGNN - 12/14/2022 01:15:38 PM : ==============================================================
+skylineGNN - 12/14/2022 01:15:38 PM : enable_gpu False, cuda.is_available False
+skylineGNN - 12/14/2022 01:15:38 PM : device: cpu , number of nodes: 5000
+skylineGNN - 12/14/2022 01:15:38 PM : ['64', '64', '8', '1', 'EmbedTrue', '5000', 'Transformer', 'ConLossTrue']
+skylineGNN - 12/14/2022 01:15:38 PM : Epoch from 0 =======> 201
+skylineGNN - 12/14/2022 01:15:40 PM : Epoch:0, Loss:0.8564(0.85585+0.00054)[1435.10714 - 124.98214], Val:8.3691(8.36910+0.00953)[41.27500 - 117.97500], running time each epoch:2.27
+skylineGNN - 12/14/2022 01:16:03 PM : Epoch:10, Loss:0.1975(0.19103+0.00645)[0.00000 - 124.98214], Val:1.9318(1.93183+0.05526)[0.00000 - 117.97500], running time each epoch:2.27
+skylineGNN - 12/14/2022 01:16:27 PM : Epoch:20, Loss:0.1781(0.17166+0.00645)[0.00000 - 124.98214], Val:1.3519(1.35187+0.05526)[0.00000 - 117.97500], running time each epoch:2.27
+skylineGNN - 12/14/2022 01:16:50 PM : Epoch:30, Loss:0.1723(0.16586+0.00645)[0.00000 - 124.98214], Val:1.3257(1.32566+0.05526)[0.00000 - 117.97500], running time each epoch:2.38
+skylineGNN - 12/14/2022 01:17:13 PM : Epoch:40, Loss:0.1703(0.16390+0.00645)[0.00000 - 124.98214], Val:1.3037(1.30373+0.05526)[0.00000 - 117.97500], running time each epoch:2.38
+skylineGNN - 12/14/2022 01:17:36 PM : Epoch:50, Loss:0.1699(0.16342+0.00645)[0.00000 - 124.98214], Val:1.3105(1.31047+0.05526)[0.00000 - 117.97500], running time each epoch:2.27
+skylineGNN - 12/14/2022 01:17:59 PM : Epoch:60, Loss:0.1668(0.16040+0.00645)[0.00000 - 124.98214], Val:1.2972(1.29716+0.05526)[0.00000 - 117.97500], running time each epoch:2.30
+skylineGNN - 12/14/2022 01:18:22 PM : Epoch:70, Loss:0.1652(0.15878+0.00645)[0.00000 - 124.98214], Val:1.2909(1.29091+0.05526)[0.00000 - 117.97500], running time each epoch:2.29
+skylineGNN - 12/14/2022 01:18:46 PM : Epoch:80, Loss:0.1659(0.15949+0.00645)[0.00000 - 124.98214], Val:1.2863(1.28633+0.05526)[0.00000 - 117.97500], running time each epoch:2.28
+skylineGNN - 12/14/2022 01:19:09 PM : Epoch:90, Loss:0.1634(0.15699+0.00645)[0.00000 - 124.98214], Val:1.2736(1.27358+0.05526)[0.00000 - 117.97500], running time each epoch:2.42
+skylineGNN - 12/14/2022 01:19:32 PM : Epoch:100, Loss:0.1609(0.15446+0.00645)[0.00000 - 124.98214], Val:1.2765(1.27646+0.05526)[0.00000 - 117.97500], running time each epoch:2.30
+skylineGNN - 12/14/2022 01:19:57 PM : Epoch:110, Loss:0.1590(0.15253+0.00645)[0.00000 - 124.98214], Val:1.2911(1.29109+0.05526)[0.00000 - 117.97500], running time each epoch:2.40
+skylineGNN - 12/14/2022 01:20:20 PM : Epoch:120, Loss:0.1592(0.15272+0.00645)[0.00000 - 124.98214], Val:1.3049(1.30487+0.05526)[0.00000 - 117.97500], running time each epoch:2.28
+skylineGNN - 12/14/2022 01:20:43 PM : Epoch:130, Loss:0.1581(0.15162+0.00645)[0.00000 - 124.98214], Val:1.2710(1.27099+0.05526)[0.00000 - 117.97500], running time each epoch:2.30
+skylineGNN - 12/14/2022 01:21:06 PM : Epoch:140, Loss:0.1573(0.15085+0.00645)[0.00000 - 124.98214], Val:1.2834(1.28344+0.05526)[0.00000 - 117.97500], running time each epoch:2.29
+skylineGNN - 12/14/2022 01:21:29 PM : Epoch:150, Loss:0.1564(0.14999+0.00645)[0.00000 - 124.98214], Val:1.2854(1.28542+0.05526)[0.00000 - 117.97500], running time each epoch:2.29
+skylineGNN - 12/14/2022 01:21:52 PM : Epoch:160, Loss:0.1564(0.14996+0.00645)[0.00000 - 124.98214], Val:1.2710(1.27103+0.05526)[0.00000 - 117.97500], running time each epoch:2.30
+skylineGNN - 12/14/2022 01:22:15 PM : Epoch:170, Loss:0.1552(0.14880+0.00645)[0.00000 - 124.98214], Val:1.2670(1.26703+0.05526)[0.00000 - 117.97500], running time each epoch:2.29
+skylineGNN - 12/14/2022 01:22:37 PM : Epoch:180, Loss:0.1553(0.14889+0.00645)[0.03571 - 124.98214], Val:1.2772(1.27715+0.05526)[0.00000 - 117.97500], running time each epoch:2.29
+skylineGNN - 12/14/2022 01:23:00 PM : Epoch:190, Loss:0.1561(0.14961+0.00645)[0.03571 - 124.98214], Val:1.3325(1.33247+0.05526)[0.00000 - 117.97500], running time each epoch:2.29
+skylineGNN - 12/14/2022 01:23:23 PM : Epoch:200, Loss:0.1525(0.14604+0.00645)[0.01786 - 124.98214], Val:1.2817(1.28166+0.05526)[0.00000 - 117.97500], running time each epoch:2.31

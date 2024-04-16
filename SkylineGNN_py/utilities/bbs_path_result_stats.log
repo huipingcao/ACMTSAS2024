@@ -1,0 +1,398 @@
+['/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_7896_585_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_3132_13745_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_14455_2226_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_5884_9450_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_12088_10774_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_2646_10256_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_2010_9887_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_13288_7912_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_5293_6718_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_3227_8352_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_4034_12590_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_8096_14621_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_4891_13375_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_7106_6215_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_2417_2419_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_2309_11470_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_13538_7929_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_9454_14698_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_11669_12290_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_11237_13701_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_8031_6119_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_8372_9372_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_8782_11026_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_9223_1910_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_13868_4667_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_75_6185_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_111_12712_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_3007_6805_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_5735_3530_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_305_8911_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_4849_21_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_7718_7436_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_7555_12777_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_964_11041_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_3780_5481_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_6618_5193_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_7470_5180_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_5399_13469_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_11972_4638_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_12021_14480_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_702_8865_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_7882_7501_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_3819_11393_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_3875_322_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_6718_14634_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_12021_7746_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_6635_13953_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_5899_10974_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_12921_12111_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_14187_11589_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_4217_5698_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_13209_11982_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_482_3138_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_12766_4175_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_478_6996_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_9250_638_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_7300_13602_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_246_10906_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_546_14484_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_8629_9901_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_8111_1813_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_6254_453_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_9626_10472_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_12654_5129_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_184_12960_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_10060_14548_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_3842_11949_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_9226_13851_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_3488_7344_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_4388_13990_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_3633_3954_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_2730_7999_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_7540_1700_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_14310_7026_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_14928_353_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_2580_9718_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_14816_3777_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_4118_14861_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_7497_11682_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_8080_4864_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_12283_1164_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_12724_3344_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_11330_6078_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_13029_9012_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_2657_13417_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_3483_10946_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_13580_2543_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_5002_14564_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_2397_8652_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_14035_4770_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_7438_712_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_5989_221_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_11810_3570_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_11829_6935_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_3973_14664_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_11501_8932_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_3719_5428_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_12898_383_C9_NY_NONE_15K.log', '/home/hchen/IntelliJProjects/java_SkylineGNN/Data/new_results_bbs/C9_NY_NONE_15K_test_1000/bbs_13122_9088_C9_NY_NONE_15K.log', '']
+7896->585, # of nodes in one bbs result: 174, 
+# of paths: 113, 
+total # of paths: 7705, 
+average path length: 68.19
+3132->13745, # of nodes in one bbs result: 912, 
+# of paths: 3189, 
+total # of paths: 459738, 
+average path length: 144.16
+14455->2226, # of nodes in one bbs result: 786, 
+# of paths: 3530, 
+total # of paths: 625235, 
+average path length: 177.12
+5884->9450, # of nodes in one bbs result: 356, 
+# of paths: 76, 
+total # of paths: 6802, 
+average path length: 89.50
+12088->10774, # of nodes in one bbs result: 136, 
+# of paths: 203, 
+total # of paths: 10111, 
+average path length: 49.81
+2646->10256, # of nodes in one bbs result: 266, 
+# of paths: 181, 
+total # of paths: 15680, 
+average path length: 86.63
+2010->9887, # of nodes in one bbs result: 279, 
+# of paths: 89, 
+total # of paths: 7013, 
+average path length: 78.80
+13288->7912, # of nodes in one bbs result: 420, 
+# of paths: 904, 
+total # of paths: 73483, 
+average path length: 81.29
+5293->6718, # of nodes in one bbs result: 182, 
+# of paths: 135, 
+total # of paths: 8988, 
+average path length: 66.58
+3227->8352, # of nodes in one bbs result: 69, 
+# of paths: 7, 
+total # of paths: 347, 
+average path length: 49.57
+4034->12590, # of nodes in one bbs result: 169, 
+# of paths: 175, 
+total # of paths: 14057, 
+average path length: 80.33
+8096->14621, # of nodes in one bbs result: 137, 
+# of paths: 17, 
+total # of paths: 1683, 
+average path length: 99.00
+4891->13375, # of nodes in one bbs result: 551, 
+# of paths: 1231, 
+total # of paths: 122176, 
+average path length: 99.25
+7106->6215, # of nodes in one bbs result: 137, 
+# of paths: 98, 
+total # of paths: 6095, 
+average path length: 62.19
+2417->2419, # of nodes in one bbs result: 60, 
+# of paths: 5, 
+total # of paths: 261, 
+average path length: 52.20
+2309->11470, # of nodes in one bbs result: 240, 
+# of paths: 116, 
+total # of paths: 11115, 
+average path length: 95.82
+13538->7929, # of nodes in one bbs result: 203, 
+# of paths: 149, 
+total # of paths: 7709, 
+average path length: 51.74
+9454->14698, # of nodes in one bbs result: 334, 
+# of paths: 122, 
+total # of paths: 15225, 
+average path length: 124.80
+11669->12290, # of nodes in one bbs result: 65, 
+# of paths: 48, 
+total # of paths: 1575, 
+average path length: 32.81
+11237->13701, # of nodes in one bbs result: 277, 
+# of paths: 606, 
+total # of paths: 39863, 
+average path length: 65.78
+8031->6119, # of nodes in one bbs result: 166, 
+# of paths: 30, 
+total # of paths: 2884, 
+average path length: 96.13
+8372->9372, # of nodes in one bbs result: 119, 
+# of paths: 52, 
+total # of paths: 3636, 
+average path length: 69.92
+8782->11026, # of nodes in one bbs result: 465, 
+# of paths: 455, 
+total # of paths: 56711, 
+average path length: 124.64
+9223->1910, # of nodes in one bbs result: 554, 
+# of paths: 2110, 
+total # of paths: 268747, 
+average path length: 127.37
+13868->4667, # of nodes in one bbs result: 367, 
+# of paths: 1253, 
+total # of paths: 121349, 
+average path length: 96.85
+75->6185, # of nodes in one bbs result: 363, 
+# of paths: 440, 
+total # of paths: 44042, 
+average path length: 100.10
+111->12712, # of nodes in one bbs result: 662, 
+# of paths: 1802, 
+total # of paths: 236348, 
+average path length: 131.16
+3007->6805, # of nodes in one bbs result: 824, 
+# of paths: 1204, 
+total # of paths: 163895, 
+average path length: 136.13
+5735->3530, # of nodes in one bbs result: 28, 
+# of paths: 1, 
+total # of paths: 28, 
+average path length: 28.00
+305->8911, # of nodes in one bbs result: 424, 
+# of paths: 1274, 
+total # of paths: 170567, 
+average path length: 133.88
+4849->21, # of nodes in one bbs result: 118, 
+# of paths: 54, 
+total # of paths: 3240, 
+average path length: 60.00
+7718->7436, # of nodes in one bbs result: 202, 
+# of paths: 122, 
+total # of paths: 10606, 
+average path length: 86.93
+7555->12777, # of nodes in one bbs result: 303, 
+# of paths: 1151, 
+total # of paths: 120582, 
+average path length: 104.76
+964->11041, # of nodes in one bbs result: 953, 
+# of paths: 5420, 
+total # of paths: 808240, 
+average path length: 149.12
+3780->5481, # of nodes in one bbs result: 22, 
+# of paths: 3, 
+total # of paths: 45, 
+average path length: 15.00
+6618->5193, # of nodes in one bbs result: 168, 
+# of paths: 79, 
+total # of paths: 5497, 
+average path length: 69.58
+7470->5180, # of nodes in one bbs result: 372, 
+# of paths: 592, 
+total # of paths: 74271, 
+average path length: 125.46
+5399->13469, # of nodes in one bbs result: 300, 
+# of paths: 141, 
+total # of paths: 11745, 
+average path length: 83.30
+11972->4638, # of nodes in one bbs result: 349, 
+# of paths: 684, 
+total # of paths: 70165, 
+average path length: 102.58
+12021->14480, # of nodes in one bbs result: 798, 
+# of paths: 2525, 
+total # of paths: 325713, 
+average path length: 129.00
+702->8865, # of nodes in one bbs result: 328, 
+# of paths: 454, 
+total # of paths: 50083, 
+average path length: 110.31
+7882->7501, # of nodes in one bbs result: 462, 
+# of paths: 1879, 
+total # of paths: 203569, 
+average path length: 108.34
+3819->11393, # of nodes in one bbs result: 67, 
+# of paths: 8, 
+total # of paths: 313, 
+average path length: 39.12
+3875->322, # of nodes in one bbs result: 333, 
+# of paths: 134, 
+total # of paths: 11770, 
+average path length: 87.84
+6718->14634, # of nodes in one bbs result: 369, 
+# of paths: 898, 
+total # of paths: 122847, 
+average path length: 136.80
+12021->7746, # of nodes in one bbs result: 431, 
+# of paths: 736, 
+total # of paths: 72440, 
+average path length: 98.42
+6635->13953, # of nodes in one bbs result: 86, 
+# of paths: 64, 
+total # of paths: 2890, 
+average path length: 45.16
+5899->10974, # of nodes in one bbs result: 552, 
+# of paths: 1087, 
+total # of paths: 110692, 
+average path length: 101.83
+12921->12111, # of nodes in one bbs result: 75, 
+# of paths: 50, 
+total # of paths: 1487, 
+average path length: 29.74
+14187->11589, # of nodes in one bbs result: 186, 
+# of paths: 110, 
+total # of paths: 6036, 
+average path length: 54.87
+4217->5698, # of nodes in one bbs result: 245, 
+# of paths: 192, 
+total # of paths: 15085, 
+average path length: 78.57
+13209->11982, # of nodes in one bbs result: 149, 
+# of paths: 184, 
+total # of paths: 6910, 
+average path length: 37.55
+482->3138, # of nodes in one bbs result: 146, 
+# of paths: 223, 
+total # of paths: 14680, 
+average path length: 65.83
+12766->4175, # of nodes in one bbs result: 421, 
+# of paths: 836, 
+total # of paths: 84122, 
+average path length: 100.62
+478->6996, # of nodes in one bbs result: 124, 
+# of paths: 50, 
+total # of paths: 2920, 
+average path length: 58.40
+9250->638, # of nodes in one bbs result: 471, 
+# of paths: 780, 
+total # of paths: 90536, 
+average path length: 116.07
+7300->13602, # of nodes in one bbs result: 354, 
+# of paths: 687, 
+total # of paths: 77502, 
+average path length: 112.81
+246->10906, # of nodes in one bbs result: 705, 
+# of paths: 737, 
+total # of paths: 110826, 
+average path length: 150.37
+546->14484, # of nodes in one bbs result: 212, 
+# of paths: 82, 
+total # of paths: 7058, 
+average path length: 86.07
+8629->9901, # of nodes in one bbs result: 208, 
+# of paths: 275, 
+total # of paths: 27425, 
+average path length: 99.73
+8111->1813, # of nodes in one bbs result: 367, 
+# of paths: 1166, 
+total # of paths: 146162, 
+average path length: 125.35
+6254->453, # of nodes in one bbs result: 90, 
+# of paths: 49, 
+total # of paths: 2000, 
+average path length: 40.82
+9626->10472, # of nodes in one bbs result: 187, 
+# of paths: 206, 
+total # of paths: 15599, 
+average path length: 75.72
+12654->5129, # of nodes in one bbs result: 579, 
+# of paths: 1448, 
+total # of paths: 156345, 
+average path length: 107.97
+184->12960, # of nodes in one bbs result: 476, 
+# of paths: 336, 
+total # of paths: 37150, 
+average path length: 110.57
+10060->14548, # of nodes in one bbs result: 497, 
+# of paths: 643, 
+total # of paths: 64097, 
+average path length: 99.68
+3842->11949, # of nodes in one bbs result: 175, 
+# of paths: 79, 
+total # of paths: 4810, 
+average path length: 60.89
+9226->13851, # of nodes in one bbs result: 383, 
+# of paths: 2243, 
+total # of paths: 240742, 
+average path length: 107.33
+3488->7344, # of nodes in one bbs result: 205, 
+# of paths: 120, 
+total # of paths: 7699, 
+average path length: 64.16
+4388->13990, # of nodes in one bbs result: 571, 
+# of paths: 1602, 
+total # of paths: 192930, 
+average path length: 120.43
+3633->3954, # of nodes in one bbs result: 51, 
+# of paths: 4, 
+total # of paths: 105, 
+average path length: 26.25
+2730->7999, # of nodes in one bbs result: 512, 
+# of paths: 331, 
+total # of paths: 35424, 
+average path length: 107.02
+7540->1700, # of nodes in one bbs result: 831, 
+# of paths: 2537, 
+total # of paths: 377203, 
+average path length: 148.68
+14310->7026, # of nodes in one bbs result: 271, 
+# of paths: 195, 
+total # of paths: 21041, 
+average path length: 107.90
+14928->353, # of nodes in one bbs result: 230, 
+# of paths: 161, 
+total # of paths: 13877, 
+average path length: 86.19
+2580->9718, # of nodes in one bbs result: 95, 
+# of paths: 19, 
+total # of paths: 899, 
+average path length: 47.32
+14816->3777, # of nodes in one bbs result: 135, 
+# of paths: 57, 
+total # of paths: 3831, 
+average path length: 67.21
+4118->14861, # of nodes in one bbs result: 319, 
+# of paths: 221, 
+total # of paths: 17712, 
+average path length: 80.14
+7497->11682, # of nodes in one bbs result: 253, 
+# of paths: 115, 
+total # of paths: 9271, 
+average path length: 80.62
+8080->4864, # of nodes in one bbs result: 159, 
+# of paths: 143, 
+total # of paths: 12531, 
+average path length: 87.63
+12283->1164, # of nodes in one bbs result: 744, 
+# of paths: 7231, 
+total # of paths: 913024, 
+average path length: 126.27
+12724->3344, # of nodes in one bbs result: 318, 
+# of paths: 524, 
+total # of paths: 43435, 
+average path length: 82.89
+11330->6078, # of nodes in one bbs result: 154, 
+# of paths: 37, 
+total # of paths: 2262, 
+average path length: 61.14
+13029->9012, # of nodes in one bbs result: 351, 
+# of paths: 830, 
+total # of paths: 88099, 
+average path length: 106.14
+2657->13417, # of nodes in one bbs result: 284, 
+# of paths: 174, 
+total # of paths: 14133, 
+average path length: 81.22
+3483->10946, # of nodes in one bbs result: 463, 
+# of paths: 260, 
+total # of paths: 25464, 
+average path length: 97.94
+13580->2543, # of nodes in one bbs result: 284, 
+# of paths: 471, 
+total # of paths: 44010, 
+average path length: 93.44
+5002->14564, # of nodes in one bbs result: 374, 
+# of paths: 391, 
+total # of paths: 43824, 
+average path length: 112.08
+2397->8652, # of nodes in one bbs result: 241, 
+# of paths: 105, 
+total # of paths: 9384, 
+average path length: 89.37
+14035->4770, # of nodes in one bbs result: 286, 
+# of paths: 1129, 
+total # of paths: 98754, 
+average path length: 87.47
+7438->712, # of nodes in one bbs result: 418, 
+# of paths: 847, 
+total # of paths: 78618, 
+average path length: 92.82
+5989->221, # of nodes in one bbs result: 126, 
+# of paths: 27, 
+total # of paths: 1051, 
+average path length: 38.93
+11810->3570, # of nodes in one bbs result: 520, 
+# of paths: 1219, 
+total # of paths: 123032, 
+average path length: 100.93
+11829->6935, # of nodes in one bbs result: 222, 
+# of paths: 76, 
+total # of paths: 7287, 
+average path length: 95.88
+3973->14664, # of nodes in one bbs result: 250, 
+# of paths: 70, 
+total # of paths: 4005, 
+average path length: 57.21
+11501->8932, # of nodes in one bbs result: 361, 
+# of paths: 236, 
+total # of paths: 19728, 
+average path length: 83.59
+3719->5428, # of nodes in one bbs result: 95, 
+# of paths: 46, 
+total # of paths: 2986, 
+average path length: 64.91
+12898->383, # of nodes in one bbs result: 498, 
+# of paths: 1383, 
+total # of paths: 146043, 
+average path length: 105.60
+13122->9088, # of nodes in one bbs result: 254, 
+# of paths: 405, 
+total # of paths: 36231,
+
+average path length: 89.46

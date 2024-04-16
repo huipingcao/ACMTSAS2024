@@ -1,0 +1,36 @@
+skylineGNN - 02/14/2023 10:48:55 AM : graph_folder, /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/C9_NY_NONE/C9_NY_NONE_15K
+skylineGNN - 02/14/2023 10:48:55 AM : data_folder, /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/C9_NY_NONE/C9_NY_NONE_15K
+skylineGNN - 02/14/2023 10:48:55 AM : paths_folder, /home/hchen/IntelliJProjects/java_SkylineGNN/Data/results_bbs/C9_NY/C9_NY_NONE_15K_12000
+skylineGNN - 02/14/2023 10:48:55 AM : checkpoints_folder, /home/hchen/PycharmProjects/ICDE23/GNNquery/SkylineGNN_py/checkpoints
+skylineGNN - 02/14/2023 10:48:55 AM : log_folder, /home/hchen/PycharmProjects/ICDE23/GNNquery/SkylineGNN_py/logs
+skylineGNN - 02/14/2023 10:48:55 AM : disable_gpu, True
+skylineGNN - 02/14/2023 10:48:55 AM : no_epoch, 1000
+skylineGNN - 02/14/2023 10:48:55 AM : node_dim, 2
+skylineGNN - 02/14/2023 10:48:55 AM : edge_dim, 3
+skylineGNN - 02/14/2023 10:48:55 AM : embed_dim, 512
+skylineGNN - 02/14/2023 10:48:55 AM : hidden_dim, 512
+skylineGNN - 02/14/2023 10:48:55 AM : disable_embed, False
+skylineGNN - 02/14/2023 10:48:55 AM : output_dim, 3
+skylineGNN - 02/14/2023 10:48:55 AM : gnn_name, Transformer
+skylineGNN - 02/14/2023 10:48:55 AM : heads, 1
+skylineGNN - 02/14/2023 10:48:55 AM : batch_size, 64
+skylineGNN - 02/14/2023 10:48:55 AM : disable_con_loss, False
+skylineGNN - 02/14/2023 10:48:55 AM : disable_node_normal, False
+skylineGNN - 02/14/2023 10:48:55 AM : =======================================================
+skylineGNN - 02/14/2023 10:48:55 AM : 
+
+skylineGNN - 02/14/2023 10:48:55 AM : Shape of nodes: torch.Size([15000, 2])
+skylineGNN - 02/14/2023 10:48:55 AM : directed graph: Data(x=[15000, 2], edge_index=[2, 38668], edge_attr=[38668, 3])
+skylineGNN - 02/14/2023 10:48:55 AM : undirected graph: Data(x=[15000, 2], edge_index=[2, 38668], edge_attr=[38668, 3])
+skylineGNN - 02/14/2023 10:48:55 AM : ==============================================================
+skylineGNN - 02/14/2023 10:48:55 AM : Number of nodes: 15000
+skylineGNN - 02/14/2023 10:48:55 AM : Number of edges: 38668
+skylineGNN - 02/14/2023 10:48:55 AM : Average node degree: 2.58
+skylineGNN - 02/14/2023 10:48:55 AM : Contains isolated nodes: False
+skylineGNN - 02/14/2023 10:48:55 AM : Contains self-loops: False
+skylineGNN - 02/14/2023 10:48:55 AM : Is undirected: True
+skylineGNN - 02/14/2023 10:48:55 AM : ==============================================================
+skylineGNN - 02/14/2023 10:48:55 AM : enable_gpu False, cuda.is_available False
+skylineGNN - 02/14/2023 10:48:55 AM : device: cpu , number of nodes: 15000
+skylineGNN - 02/14/2023 10:48:55 AM : Process Data(x=[15000, 2], edge_index=[2, 38668], edge_attr=[38668, 3])
+skylineGNN - 02/14/2023 10:55:56 AM : 12000 == 8400 8400 3600
