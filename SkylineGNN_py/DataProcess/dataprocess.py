@@ -5,8 +5,8 @@ import os
 from NADataProcess.NADataProcess import na_data_process
 from process_challenge9.C9DataProcess import c9_data_process
 
-# home = expanduser("~")
-home = expanduser("/Users/hyingchen/PycharmProjects/ICDE23/GNNquery/")
+home = expanduser("~")
+# home = expanduser("/Users/hyingchen/PycharmProjects/ICDE23/GNNquery/")
 
 
 def dir_path(path):

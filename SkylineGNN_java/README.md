@@ -1,6 +1,6 @@
-# GNNquery
+# GNNquery - Part I
 
-This work is for using GNN to support graph queries. 
+This work is for generating training samples for GNN training using Java code.
 
 
 ## Installation
@@ -42,7 +42,7 @@ mapped_node_file in Query.java
 
 - One training sample is a set of skyline paths between two random pair of nodes.
 - One dateset is consisted of given number of training samples, which can be transferred to geometric package compatible dataset while using the python code.
-- All the script executable functions can be found in the  *~/GNNquery/Java_SkylineBBS/src/main/java/utilities/RunningScripts.java*. Here are some examples of java commands. You can run the executable jar file by compiling it from maven, or can run from you IDE. The provided example commands are only for demonstrated purposes. You can change parameters an you want.  
+- All the script executable functions can be found in the  *~/GNNquery/Java_SkylineBBS/src/main/java/utilities/RunningScripts.java*. Here are some examples of java commands. You can run the executable jar file by compiling it from maven, or can run from you IDE. The provided example commands are only for demonstrated purposes. You can change parameters as you want.  
 
 1. Create Neo4j Database from raw files. 
 ```
