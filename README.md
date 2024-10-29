@@ -181,7 +181,7 @@ java -jar target/BackboneIndex.jar -m BuildLandMark -dbname C9_NY_NONE_5K_Level1
 1. Create Neo4j Database from raw files.
 
 Purpose: Create neo4jdb per dataset, per relation.\
-Run commands as described in [SkylineGNN_java/generation_cmd.md](/SkylineGNN_java/generation_cmd.md)
+More commands are in below Section [Full Commands for neo4j database, subGraph, TrainingSet generation, and DTW comparison](https://github.com/huipingcao/ACMTSAS2024/blob/main/README.md#full-commands-for-neo4j-database-subgraph-trainingset-generation-and-dtw-comparison-for-all-three-methods-bbs-gnn-tsp-gnn)
 
 ```
     >-m createDB -dbname <dbname> -neo4jdb <db_path> -GraphInfo <node_edge_file_path>
@@ -193,7 +193,7 @@ Run commands as described in [SkylineGNN_java/generation_cmd.md](/SkylineGNN_jav
 
 Purpose: Generate subgraphs for BBS search\
 Important notes: hierarchical, e.g. a 5K subgraph needs to be a subgraph of 5K. \
-Run commands as described in [SkylineGNN_java/generation_cmd.md](/SkylineGNN_java/generation_cmd.md)
+More commands are in below Section [Full Commands for neo4j database, subGraph, TrainingSet generation, and DTW comparison](https://github.com/huipingcao/ACMTSAS2024/blob/main/README.md#full-commands-for-neo4j-database-subgraph-trainingset-generation-and-dtw-comparison-for-all-three-methods-bbs-gnn-tsp-gnn)
 
 ```
     >-m GenerateSubGraph -dbname <src-dbname> -neo4jdb <db_path> -GraphInfo <node_edge_file_path>
@@ -210,7 +210,7 @@ Important notes:
 - The query looks like 1184 3364 >> (start_node) (end_node) 
 - Generate *_query_pair_bank.txt randomly contains # of queries more than needed num_queries  
 
-Run commands as described in [SkylineGNN_java/generation_cmd.md](/SkylineGNN_java/generation_cmd.md) 
+More commands are in below Section [Full Commands for neo4j database, subGraph, TrainingSet generation, and DTW comparison](https://github.com/huipingcao/ACMTSAS2024/blob/main/README.md#full-commands-for-neo4j-database-subgraph-trainingset-generation-and-dtw-comparison-for-all-three-methods-bbs-gnn-tsp-gnn)
 
 
 4. Generate given number of training samples:
@@ -221,7 +221,7 @@ Run commands as described in [SkylineGNN_java/generation_cmd.md](/SkylineGNN_jav
     > java -Xmx20G -jar SkylineGNN_java/target/BackboneIndex.jar -m GenerateBaselineResults -dbname C9_NY_NONE_5K -neo4jdb /Data/C9_NY_NONE_5K/db/ -GraphInfo /Data/C9_NY_NONE_5K -landmarkIndexFolder /Data/landmarks/C9_NY_NONE_5K -nLandMark 3 -cLandMark true -resultFolder /Data/results/C9_NY_NONE_5K -numQuery 100 2>&1 | tee C9_NY_NONE_5K.log
 ```
 
-Run commands as described in [SkylineGNN_java/generation_cmd.md](/SkylineGNN_java/generation_cmd.md)
+More commands are in below Section [Full Commands for neo4j database, subGraph, TrainingSet generation, and DTW comparison](https://github.com/huipingcao/ACMTSAS2024/blob/main/README.md#full-commands-for-neo4j-database-subgraph-trainingset-generation-and-dtw-comparison-for-all-three-methods-bbs-gnn-tsp-gnn)
 
 Important notes: 
 
