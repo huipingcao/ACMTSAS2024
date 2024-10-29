@@ -1,0 +1,1005 @@
+2022-08-23 03:02:06.072+0000 WARN [o.n.k.i.JvmChecker] You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 8, OpenJDK(TM) 8 or IBM J9.
+2022-08-23 03:02:06.093+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 21474836480 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2022-08-23 03:02:06.192+0000 INFO [o.n.g.f.m.e.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2022-08-23 03:02:06.268+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Creating 'graph.db' database.
+2022-08-23 03:02:06.283+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Requirement `Database available` makes database graph.db unavailable.
+2022-08-23 03:02:06.283+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is unavailable.
+2022-08-23 03:02:06.291+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2022-08-23 03:02:06.291+0000 INFO [o.n.i.d.DiagnosticsManager] Neo4j Kernel properties:
+2022-08-23 03:02:06.291+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.connector.http.enabled=false
+2022-08-23 03:02:06.291+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.active_database=graph.db
+2022-08-23 03:02:06.291+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.edition=community
+2022-08-23 03:02:06.292+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.windows_service_name=neo4j
+2022-08-23 03:02:06.292+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.connector.bolt.enabled=false
+2022-08-23 03:02:06.292+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.connector.https.enabled=false
+2022-08-23 03:02:06.292+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases
+2022-08-23 03:02:06.292+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.directories.import=import
+2022-08-23 03:02:06.292+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
+2022-08-23 03:02:06.292+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.databases.root=/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases
+2022-08-23 03:02:06.292+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2022-08-23 03:02:06.292+0000 INFO [o.n.i.d.DiagnosticsManager] Diagnostics providers:
+2022-08-23 03:02:06.292+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2022-08-23 03:02:06.292+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.internal.diagnostics.DiagnosticsManager
+2022-08-23 03:02:06.293+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_MEMORY
+2022-08-23 03:02:06.293+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_MEMORY
+2022-08-23 03:02:06.293+0000 INFO [o.n.i.d.DiagnosticsManager] OPERATING_SYSTEM
+2022-08-23 03:02:06.293+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2022-08-23 03:02:06.293+0000 INFO [o.n.i.d.DiagnosticsManager] CLASSPATH
+2022-08-23 03:02:06.293+0000 INFO [o.n.i.d.DiagnosticsManager] LIBRARY_PATH
+2022-08-23 03:02:06.293+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_PROPERTIES
+2022-08-23 03:02:06.293+0000 INFO [o.n.i.d.DiagnosticsManager] TIMEZONE_DATABASE
+2022-08-23 03:02:06.293+0000 INFO [o.n.i.d.DiagnosticsManager] LINUX_SCHEDULERS
+2022-08-23 03:02:06.293+0000 INFO [o.n.i.d.DiagnosticsManager] NETWORK
+2022-08-23 03:02:06.293+0000 INFO [o.n.i.d.DiagnosticsManager] System memory information:
+2022-08-23 03:02:06.299+0000 INFO [o.n.i.d.DiagnosticsManager] Total Physical memory: 62.66 GB
+2022-08-23 03:02:06.299+0000 INFO [o.n.i.d.DiagnosticsManager] Free Physical memory: 48.32 GB
+2022-08-23 03:02:06.299+0000 INFO [o.n.i.d.DiagnosticsManager] Committed virtual memory: 20.16 GB
+2022-08-23 03:02:06.300+0000 INFO [o.n.i.d.DiagnosticsManager] Total swap space: 2.00 GB
+2022-08-23 03:02:06.300+0000 INFO [o.n.i.d.DiagnosticsManager] Free swap space: 2.00 GB
+2022-08-23 03:02:06.300+0000 INFO [o.n.i.d.DiagnosticsManager] JVM memory information:
+2022-08-23 03:02:06.300+0000 INFO [o.n.i.d.DiagnosticsManager] Free  memory: 978.54 MB
+2022-08-23 03:02:06.301+0000 INFO [o.n.i.d.DiagnosticsManager] Total memory: 1004.00 MB
+2022-08-23 03:02:06.301+0000 INFO [o.n.i.d.DiagnosticsManager] Max   memory: 15.67 GB
+2022-08-23 03:02:06.303+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2022-08-23 03:02:06.303+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2022-08-23 03:02:06.303+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'non-nmethods' (Non-heap memory): committed=2.88 MB, used=2.84 MB, max=7.25 MB, threshold=0.00 B
+2022-08-23 03:02:06.304+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=23.75 MB, used=22.89 MB, max=-1.00 B, threshold=0.00 B
+2022-08-23 03:02:06.304+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'profiled nmethods' (Non-heap memory): committed=3.56 MB, used=3.50 MB, max=116.38 MB, threshold=0.00 B
+2022-08-23 03:02:06.304+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=2.75 MB, used=2.45 MB, max=1.00 GB, threshold=0.00 B
+2022-08-23 03:02:06.304+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=44.00 MB, used=12.00 MB, max=-1.00 B, threshold=?
+2022-08-23 03:02:06.304+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=952.00 MB, used=674.20 kB, max=15.67 GB, threshold=0.00 B
+2022-08-23 03:02:06.304+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=8.00 MB, used=8.00 MB, max=-1.00 B, threshold=?
+2022-08-23 03:02:06.305+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'non-profiled nmethods' (Non-heap memory): committed=2.44 MB, used=587.25 kB, max=116.38 MB, threshold=0.00 B
+2022-08-23 03:02:06.305+0000 INFO [o.n.i.d.DiagnosticsManager] Operating system information:
+2022-08-23 03:02:06.305+0000 INFO [o.n.i.d.DiagnosticsManager] Operating System: Linux; version: 5.4.0-122-generic; arch: amd64; cpus: 16
+2022-08-23 03:02:06.305+0000 INFO [o.n.i.d.DiagnosticsManager] Max number of file descriptors: 1048576
+2022-08-23 03:02:06.305+0000 INFO [o.n.i.d.DiagnosticsManager] Number of open file descriptors: 11
+2022-08-23 03:02:06.309+0000 INFO [o.n.i.d.DiagnosticsManager] Process id: 10766@001
+2022-08-23 03:02:06.309+0000 INFO [o.n.i.d.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2022-08-23 03:02:06.319+0000 INFO [o.n.i.d.DiagnosticsManager] Local timezone: America/Denver
+2022-08-23 03:02:06.319+0000 INFO [o.n.i.d.DiagnosticsManager] JVM information:
+2022-08-23 03:02:06.319+0000 INFO [o.n.i.d.DiagnosticsManager] VM Name: OpenJDK 64-Bit Server VM
+2022-08-23 03:02:06.319+0000 INFO [o.n.i.d.DiagnosticsManager] VM Vendor: Private Build
+2022-08-23 03:02:06.319+0000 INFO [o.n.i.d.DiagnosticsManager] VM Version: 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+2022-08-23 03:02:06.319+0000 INFO [o.n.i.d.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2022-08-23 03:02:06.319+0000 INFO [o.n.i.d.DiagnosticsManager] VM Arguments: []
+2022-08-23 03:02:06.319+0000 INFO [o.n.i.d.DiagnosticsManager] Java classpath:
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] /home/hchen/IntelliJProjects/java_SkylineGNN/target/BackboneIndex.jar
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] Library path:
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/java/packages/lib
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/x86_64-linux-gnu/jni
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/x86_64-linux-gnu
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/x86_64-linux-gnu
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/jni
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] System.properties:
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] sun.desktop = gnome
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.isalist = 
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] sun.arch.data.model = 64
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] user.timezone = America/Denver
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] user.country = US
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] sun.boot.library.path = /usr/lib/jvm/java-11-openjdk-amd64/lib
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.command = BackboneIndex.jar -m createDB -dbname C9_NY_NONE_5K -neo4jdb /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE -GraphInfo /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/C9_NY_NONE/C9_NY_NONE_5K
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] jdk.debug = release
+2022-08-23 03:02:06.320+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.endian = little
+2022-08-23 03:02:06.321+0000 INFO [o.n.i.d.DiagnosticsManager] user.home = /home/hchen
+2022-08-23 03:02:06.321+0000 INFO [o.n.i.d.DiagnosticsManager] user.language = en
+2022-08-23 03:02:06.321+0000 INFO [o.n.i.d.DiagnosticsManager] file.separator = /
+2022-08-23 03:02:06.321+0000 INFO [o.n.i.d.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2022-08-23 03:02:06.321+0000 INFO [o.n.i.d.DiagnosticsManager] user.name = hchen
+2022-08-23 03:02:06.321+0000 INFO [o.n.i.d.DiagnosticsManager] path.separator = :
+2022-08-23 03:02:06.321+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding = UTF-8
+2022-08-23 03:02:06.321+0000 INFO [o.n.i.d.DiagnosticsManager] user.dir = /home/hchen/IntelliJProjects/java_SkylineGNN/target
+2022-08-23 03:02:06.321+0000 INFO [o.n.i.d.DiagnosticsManager] sun.os.patch.level = unknown
+2022-08-23 03:02:06.321+0000 INFO [o.n.i.d.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2022-08-23 03:02:06.321+0000 INFO [o.n.i.d.DiagnosticsManager] (IANA) TimeZone Database Version:
+2022-08-23 03:02:06.336+0000 INFO [o.n.i.d.DiagnosticsManager]   TimeZone version: 2021e (available for 601 zone identifiers)
+2022-08-23 03:02:06.336+0000 INFO [o.n.i.d.DiagnosticsManager] Linux scheduler information:
+2022-08-23 03:02:06.337+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.337+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.337+0000 INFO [o.n.i.d.DiagnosticsManager] [none] mq-deadline 
+2022-08-23 03:02:06.337+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.337+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.337+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.337+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.337+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.337+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.338+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.338+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.338+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.338+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.338+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.338+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.338+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.338+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.338+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.338+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.339+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.339+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.339+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.339+0000 INFO [o.n.i.d.DiagnosticsManager] Network information:
+2022-08-23 03:02:06.339+0000 INFO [o.n.i.d.DiagnosticsManager] Interface eno1:
+2022-08-23 03:02:06.339+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:b58d:a739:6f29:6145%eno1
+2022-08-23 03:02:06.339+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.1.111
+2022-08-23 03:02:06.339+0000 INFO [o.n.i.d.DiagnosticsManager] Interface lo:
+2022-08-23 03:02:06.339+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2022-08-23 03:02:06.340+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 127.0.0.1
+2022-08-23 03:02:06.340+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2022-08-23 03:02:06.378+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected format 'RecordFormat:StandardV3_4[v0.A.9]' for the new store
+2022-08-23 03:02:06.724+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] No label index found, this might just be first use. Preparing to rebuild.
+2022-08-23 03:02:06.740+0000 INFO [o.n.k.NeoStoreDataSource] Rotated to transaction log [/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db/neostore.transaction.db.0] version=0, last transaction in previous log=1
+2022-08-23 03:02:06.740+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at <no log position given>)
+2022-08-23 03:02:06.744+0000 WARN [o.n.k.i.s.MetaDataStore] Missing counts store, rebuilding it.
+2022-08-23 03:02:06.746+0000 WARN [o.n.k.i.s.MetaDataStore] Counts store rebuild completed.
+2022-08-23 03:02:06.752+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Rebuilding label index, this may take a while
+2022-08-23 03:02:06.759+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index rebuilt (roughly 0 nodes)
+2022-08-23 03:02:06.760+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2022-08-23 03:02:06.761+0000 INFO [o.n.i.d.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1661223726520, randomId=1576369497715822769, storeVersion=16094931155187206, upgradeTime=1661223726520, upgradeId=1}
+2022-08-23 03:02:06.761+0000 INFO [o.n.i.d.DiagnosticsManager] Kernel version: dev
+2022-08-23 03:02:06.761+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2022-08-23 03:02:06.765+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2022-08-23 03:02:06.765+0000 INFO [o.n.i.d.DiagnosticsManager] Store versions:
+2022-08-23 03:02:06.765+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2022-08-23 03:02:06.765+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore v0.A.9
+2022-08-23 03:02:06.765+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:06.765+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore v0.A.9
+2022-08-23 03:02:06.765+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:06.765+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2022-08-23 03:02:06.765+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore v0.A.9
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore v0.A.9
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore v0.A.9
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore v0.A.9
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore v0.A.9
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore v0.A.9
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore v0.A.9
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager] Id usage:
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore: used=0 high=-1
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2022-08-23 03:02:06.766+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore: used=1 high=0
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore: used=15 high=14
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] Neostore records:
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] TIME (Creation time): 1661223726520
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 1576369497715822769
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] STORE_VERSION (Store format version): 16094931155187206
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1661223726520
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2022-08-23 03:02:06.767+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2022-08-23 03:02:06.768+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2022-08-23 03:02:06.768+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2022-08-23 03:02:06.768+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2022-08-23 03:02:06.768+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2022-08-23 03:02:06.768+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2022-08-23 03:02:06.768+0000 INFO [o.n.i.d.DiagnosticsManager] Transaction log:
+2022-08-23 03:02:06.768+0000 INFO [o.n.i.d.DiagnosticsManager] No transactions found in any log
+2022-08-23 03:02:06.768+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2022-08-23 03:02:06.772+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2022-08-23 03:02:06.772+0000 INFO [o.n.i.d.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 502392610816 / 208762105856 / 41
+2022-08-23 03:02:06.772+0000 INFO [o.n.i.d.DiagnosticsManager] Storage files: (filename : modification date - size)
+2022-08-23 03:02:06.774+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.774+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.counts.db.a: 2022-08-22T21:02:06-0600 - 96.00 B
+2022-08-23 03:02:06.774+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.774+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labelscanstore.db: 2022-08-22T21:02:06-0600 - 40.00 kB
+2022-08-23 03:02:06.774+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:06.774+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.774+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.774+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.775+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:06.775+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.775+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.775+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.775+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:06.775+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.775+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.775+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.775+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:06.776+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.776+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.776+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.776+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.776+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.776+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.776+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.776+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:06.776+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.777+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:06.777+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.777+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.777+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.777+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.777+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.777+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.transaction.db.0: 2022-08-22T21:02:06-0600 - 16.00 B
+2022-08-23 03:02:06.777+0000 INFO [o.n.i.d.DiagnosticsManager] Storage summary: 
+2022-08-23 03:02:06.777+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of store: 112.24 kB
+2022-08-23 03:02:06.777+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of mapped files: 112.00 kB
+2022-08-23 03:02:06.777+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2022-08-23 03:02:06.777+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Fulfilling of requirement 'Database available' makes database graph.db available.
+2022-08-23 03:02:06.778+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is ready.
+2022-08-23 03:02:06.778+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2022-08-23 03:02:06.856+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutdown started
+2022-08-23 03:02:06.856+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is unavailable.
+2022-08-23 03:02:06.857+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutting down 'graph.db' database.
+2022-08-23 03:02:06.857+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutdown started
+2022-08-23 03:02:06.859+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Checkpoint triggered by "Database shutdown" @ txId: 1 checkpoint started...
+2022-08-23 03:02:06.865+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Checkpoint triggered by "Database shutdown" @ txId: 1 checkpoint completed in 6ms
+2022-08-23 03:02:06.866+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] No log version pruned, last checkpoint was made in version 0
+2022-08-23 03:02:06.884+0000 INFO [o.n.i.d.DiagnosticsManager] --- STOPPING diagnostics START ---
+2022-08-23 03:02:06.884+0000 INFO [o.n.i.d.DiagnosticsManager] --- STOPPING diagnostics END ---
+2022-08-23 03:02:06.894+0000 WARN [o.n.k.i.JvmChecker] You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 8, OpenJDK(TM) 8 or IBM J9.
+2022-08-23 03:02:06.895+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 21474836480 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2022-08-23 03:02:06.911+0000 INFO [o.n.g.f.m.e.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2022-08-23 03:02:06.921+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Creating 'graph.db' database.
+2022-08-23 03:02:06.921+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Requirement `Database available` makes database graph.db unavailable.
+2022-08-23 03:02:06.921+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is unavailable.
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] Neo4j Kernel properties:
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.connector.http.enabled=false
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.active_database=graph.db
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.edition=community
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.windows_service_name=neo4j
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.connector.bolt.enabled=false
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.connector.https.enabled=false
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.directories.import=import
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.databases.root=/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] Diagnostics providers:
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.internal.diagnostics.DiagnosticsManager
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_MEMORY
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_MEMORY
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] OPERATING_SYSTEM
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] CLASSPATH
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] LIBRARY_PATH
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_PROPERTIES
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] TIMEZONE_DATABASE
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] LINUX_SCHEDULERS
+2022-08-23 03:02:06.921+0000 INFO [o.n.i.d.DiagnosticsManager] NETWORK
+2022-08-23 03:02:06.922+0000 INFO [o.n.i.d.DiagnosticsManager] System memory information:
+2022-08-23 03:02:06.922+0000 INFO [o.n.i.d.DiagnosticsManager] Total Physical memory: 62.66 GB
+2022-08-23 03:02:06.922+0000 INFO [o.n.i.d.DiagnosticsManager] Free Physical memory: 48.15 GB
+2022-08-23 03:02:06.922+0000 INFO [o.n.i.d.DiagnosticsManager] Committed virtual memory: 21.58 GB
+2022-08-23 03:02:06.922+0000 INFO [o.n.i.d.DiagnosticsManager] Total swap space: 2.00 GB
+2022-08-23 03:02:06.923+0000 INFO [o.n.i.d.DiagnosticsManager] Free swap space: 2.00 GB
+2022-08-23 03:02:06.923+0000 INFO [o.n.i.d.DiagnosticsManager] JVM memory information:
+2022-08-23 03:02:06.923+0000 INFO [o.n.i.d.DiagnosticsManager] Free  memory: 961.21 MB
+2022-08-23 03:02:06.923+0000 INFO [o.n.i.d.DiagnosticsManager] Total memory: 1004.00 MB
+2022-08-23 03:02:06.923+0000 INFO [o.n.i.d.DiagnosticsManager] Max   memory: 15.67 GB
+2022-08-23 03:02:06.923+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2022-08-23 03:02:06.923+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2022-08-23 03:02:06.923+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'non-nmethods' (Non-heap memory): committed=3.06 MB, used=2.96 MB, max=7.25 MB, threshold=0.00 B
+2022-08-23 03:02:06.923+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=38.13 MB, used=37.16 MB, max=-1.00 B, threshold=0.00 B
+2022-08-23 03:02:06.923+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'profiled nmethods' (Non-heap memory): committed=5.88 MB, used=5.85 MB, max=116.38 MB, threshold=0.00 B
+2022-08-23 03:02:06.923+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=5.63 MB, used=5.18 MB, max=1.00 GB, threshold=0.00 B
+2022-08-23 03:02:06.923+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=92.00 MB, used=20.00 MB, max=-1.00 B, threshold=?
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=904.00 MB, used=7.49 MB, max=15.67 GB, threshold=0.00 B
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=8.00 MB, used=8.00 MB, max=-1.00 B, threshold=?
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'non-profiled nmethods' (Non-heap memory): committed=2.44 MB, used=1.05 MB, max=116.38 MB, threshold=0.00 B
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] Operating system information:
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] Operating System: Linux; version: 5.4.0-122-generic; arch: amd64; cpus: 16
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] Max number of file descriptors: 1048576
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] Number of open file descriptors: 12
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] Process id: 10766@001
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] Local timezone: America/Denver
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] JVM information:
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] VM Name: OpenJDK 64-Bit Server VM
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] VM Vendor: Private Build
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] VM Version: 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] VM Arguments: []
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] Java classpath:
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] /home/hchen/IntelliJProjects/java_SkylineGNN/target/BackboneIndex.jar
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] Library path:
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/java/packages/lib
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/x86_64-linux-gnu/jni
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/x86_64-linux-gnu
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/x86_64-linux-gnu
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/jni
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] System.properties:
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] sun.desktop = gnome
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.isalist = 
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] sun.arch.data.model = 64
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] user.timezone = America/Denver
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] user.country = US
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] sun.boot.library.path = /usr/lib/jvm/java-11-openjdk-amd64/lib
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.command = BackboneIndex.jar -m createDB -dbname C9_NY_NONE_5K -neo4jdb /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE -GraphInfo /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/C9_NY_NONE/C9_NY_NONE_5K
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] jdk.debug = release
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.endian = little
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] user.home = /home/hchen
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] user.language = en
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] file.separator = /
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] user.name = hchen
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] path.separator = :
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding = UTF-8
+2022-08-23 03:02:06.924+0000 INFO [o.n.i.d.DiagnosticsManager] user.dir = /home/hchen/IntelliJProjects/java_SkylineGNN/target
+2022-08-23 03:02:06.925+0000 INFO [o.n.i.d.DiagnosticsManager] sun.os.patch.level = unknown
+2022-08-23 03:02:06.925+0000 INFO [o.n.i.d.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2022-08-23 03:02:06.925+0000 INFO [o.n.i.d.DiagnosticsManager] (IANA) TimeZone Database Version:
+2022-08-23 03:02:06.925+0000 INFO [o.n.i.d.DiagnosticsManager]   TimeZone version: 2021e (available for 601 zone identifiers)
+2022-08-23 03:02:06.925+0000 INFO [o.n.i.d.DiagnosticsManager] Linux scheduler information:
+2022-08-23 03:02:06.925+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.925+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.925+0000 INFO [o.n.i.d.DiagnosticsManager] [none] mq-deadline 
+2022-08-23 03:02:06.925+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.925+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.925+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.925+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:06.926+0000 INFO [o.n.i.d.DiagnosticsManager] Network information:
+2022-08-23 03:02:06.927+0000 INFO [o.n.i.d.DiagnosticsManager] Interface eno1:
+2022-08-23 03:02:06.927+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:b58d:a739:6f29:6145%eno1
+2022-08-23 03:02:06.927+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.1.111
+2022-08-23 03:02:06.927+0000 INFO [o.n.i.d.DiagnosticsManager] Interface lo:
+2022-08-23 03:02:06.927+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2022-08-23 03:02:06.927+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 127.0.0.1
+2022-08-23 03:02:06.927+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2022-08-23 03:02:06.932+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db
+2022-08-23 03:02:06.934+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db
+2022-08-23 03:02:06.934+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_4[v0.A.9]
+2022-08-23 03:02:06.952+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at LogPosition{logVersion=0, byteOffset=16})
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1661223726520, randomId=1576369497715822769, storeVersion=16094931155187206, upgradeTime=1661223726520, upgradeId=1}
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager] Kernel version: dev
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager] Store versions:
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore v0.A.9
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager] Id usage:
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore: used=0 high=-1
+2022-08-23 03:02:06.953+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore: used=1 high=0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore: used=15 high=14
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] Neostore records:
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] TIME (Creation time): 1661223726520
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 1576369497715822769
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] STORE_VERSION (Store format version): 16094931155187206
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1661223726520
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] Transaction log:
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 502392610816 / 208762073088 / 41
+2022-08-23 03:02:06.954+0000 INFO [o.n.i.d.DiagnosticsManager] Storage files: (filename : modification date - size)
+2022-08-23 03:02:06.955+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.955+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.counts.db.a: 2022-08-22T21:02:06-0600 - 96.00 B
+2022-08-23 03:02:06.955+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.955+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labelscanstore.db: 2022-08-22T21:02:06-0600 - 40.00 kB
+2022-08-23 03:02:06.955+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:06.955+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.955+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.955+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.955+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.956+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db.id: 2022-08-22T21:02:06-0600 - 9.00 B
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.transaction.db.0: 2022-08-22T21:02:06-0600 - 34.00 B
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager] Storage summary: 
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of store: 112.26 kB
+2022-08-23 03:02:06.957+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of mapped files: 112.00 kB
+2022-08-23 03:02:06.958+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2022-08-23 03:02:06.958+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Fulfilling of requirement 'Database available' makes database graph.db available.
+2022-08-23 03:02:06.958+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is ready.
+2022-08-23 03:02:06.958+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2022-08-23 03:02:07.008+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutdown started
+2022-08-23 03:02:07.008+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is unavailable.
+2022-08-23 03:02:07.008+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutting down 'graph.db' database.
+2022-08-23 03:02:07.008+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutdown started
+2022-08-23 03:02:07.008+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Checkpoint triggered by "Database shutdown" @ txId: 6 checkpoint started...
+2022-08-23 03:02:07.019+0000 INFO [o.n.k.i.s.c.CountsTracker] Rotated counts store at transaction 6 to [/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db/neostore.counts.db.b], from [/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db/neostore.counts.db.a].
+2022-08-23 03:02:07.028+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Checkpoint triggered by "Database shutdown" @ txId: 6 checkpoint completed in 20ms
+2022-08-23 03:02:07.028+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] No log version pruned, last checkpoint was made in version 0
+2022-08-23 03:02:07.052+0000 INFO [o.n.i.d.DiagnosticsManager] --- STOPPING diagnostics START ---
+2022-08-23 03:02:07.052+0000 INFO [o.n.i.d.DiagnosticsManager] --- STOPPING diagnostics END ---
+2022-08-23 03:02:07.068+0000 WARN [o.n.k.i.JvmChecker] You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 8, OpenJDK(TM) 8 or IBM J9.
+2022-08-23 03:02:07.069+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 21474836480 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2022-08-23 03:02:07.097+0000 INFO [o.n.g.f.m.e.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2022-08-23 03:02:07.107+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Creating 'graph.db' database.
+2022-08-23 03:02:07.107+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Requirement `Database available` makes database graph.db unavailable.
+2022-08-23 03:02:07.107+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is unavailable.
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] Neo4j Kernel properties:
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.connector.http.enabled=false
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.active_database=graph.db
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.edition=community
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.windows_service_name=neo4j
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.connector.bolt.enabled=false
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.connector.https.enabled=false
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.directories.import=import
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.databases.root=/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] Diagnostics providers:
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.internal.diagnostics.DiagnosticsManager
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_MEMORY
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_MEMORY
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] OPERATING_SYSTEM
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] CLASSPATH
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] LIBRARY_PATH
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_PROPERTIES
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] TIMEZONE_DATABASE
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] LINUX_SCHEDULERS
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] NETWORK
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] System memory information:
+2022-08-23 03:02:07.107+0000 INFO [o.n.i.d.DiagnosticsManager] Total Physical memory: 62.66 GB
+2022-08-23 03:02:07.108+0000 INFO [o.n.i.d.DiagnosticsManager] Free Physical memory: 48.07 GB
+2022-08-23 03:02:07.108+0000 INFO [o.n.i.d.DiagnosticsManager] Committed virtual memory: 21.66 GB
+2022-08-23 03:02:07.108+0000 INFO [o.n.i.d.DiagnosticsManager] Total swap space: 2.00 GB
+2022-08-23 03:02:07.108+0000 INFO [o.n.i.d.DiagnosticsManager] Free swap space: 2.00 GB
+2022-08-23 03:02:07.108+0000 INFO [o.n.i.d.DiagnosticsManager] JVM memory information:
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Free  memory: 937.21 MB
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Total memory: 1004.00 MB
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Max   memory: 15.67 GB
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'non-nmethods' (Non-heap memory): committed=3.06 MB, used=2.98 MB, max=7.25 MB, threshold=0.00 B
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=40.13 MB, used=38.90 MB, max=-1.00 B, threshold=0.00 B
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'profiled nmethods' (Non-heap memory): committed=6.50 MB, used=6.49 MB, max=116.38 MB, threshold=0.00 B
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=5.88 MB, used=5.42 MB, max=1.00 GB, threshold=0.00 B
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=92.00 MB, used=44.00 MB, max=-1.00 B, threshold=?
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=904.00 MB, used=7.49 MB, max=15.67 GB, threshold=0.00 B
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=8.00 MB, used=8.00 MB, max=-1.00 B, threshold=?
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'non-profiled nmethods' (Non-heap memory): committed=2.44 MB, used=1.20 MB, max=116.38 MB, threshold=0.00 B
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Operating system information:
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Operating System: Linux; version: 5.4.0-122-generic; arch: amd64; cpus: 16
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Max number of file descriptors: 1048576
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Number of open file descriptors: 12
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Process id: 10766@001
+2022-08-23 03:02:07.109+0000 INFO [o.n.i.d.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] Local timezone: America/Denver
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] JVM information:
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] VM Name: OpenJDK 64-Bit Server VM
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] VM Vendor: Private Build
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] VM Version: 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] VM Arguments: []
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] Java classpath:
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] /home/hchen/IntelliJProjects/java_SkylineGNN/target/BackboneIndex.jar
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] Library path:
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/java/packages/lib
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/x86_64-linux-gnu/jni
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/x86_64-linux-gnu
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/x86_64-linux-gnu
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/jni
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] System.properties:
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] sun.desktop = gnome
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.isalist = 
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] sun.arch.data.model = 64
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] user.timezone = America/Denver
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] user.country = US
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] sun.boot.library.path = /usr/lib/jvm/java-11-openjdk-amd64/lib
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.command = BackboneIndex.jar -m createDB -dbname C9_NY_NONE_5K -neo4jdb /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE -GraphInfo /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/C9_NY_NONE/C9_NY_NONE_5K
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] jdk.debug = release
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.endian = little
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] user.home = /home/hchen
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] user.language = en
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] file.separator = /
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] user.name = hchen
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] path.separator = :
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding = UTF-8
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] user.dir = /home/hchen/IntelliJProjects/java_SkylineGNN/target
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] sun.os.patch.level = unknown
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] (IANA) TimeZone Database Version:
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager]   TimeZone version: 2021e (available for 601 zone identifiers)
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] Linux scheduler information:
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.110+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [none] mq-deadline 
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.111+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.112+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.112+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.112+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.112+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.112+0000 INFO [o.n.i.d.DiagnosticsManager] Network information:
+2022-08-23 03:02:07.112+0000 INFO [o.n.i.d.DiagnosticsManager] Interface eno1:
+2022-08-23 03:02:07.112+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:b58d:a739:6f29:6145%eno1
+2022-08-23 03:02:07.112+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.1.111
+2022-08-23 03:02:07.112+0000 INFO [o.n.i.d.DiagnosticsManager] Interface lo:
+2022-08-23 03:02:07.112+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2022-08-23 03:02:07.112+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 127.0.0.1
+2022-08-23 03:02:07.112+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2022-08-23 03:02:07.117+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db
+2022-08-23 03:02:07.118+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db
+2022-08-23 03:02:07.118+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_4[v0.A.9]
+2022-08-23 03:02:07.136+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at LogPosition{logVersion=0, byteOffset=828})
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1661223726520, randomId=1576369497715822769, storeVersion=16094931155187206, upgradeTime=1661223726520, upgradeId=1}
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] Kernel version: dev
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] Store versions:
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore v0.A.9
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] Id usage:
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore: used=1 high=19
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=4 high=3
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore: used=3 high=2
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore: used=2 high=19
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=2 high=1
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore: used=1 high=0
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore: used=1 high=0
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore: used=15 high=14
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] Neostore records:
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] TIME (Creation time): 1661223726520
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 1576369497715822769
+2022-08-23 03:02:07.137+0000 INFO [o.n.i.d.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 6
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] STORE_VERSION (Store format version): 16094931155187206
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1661223726520
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -161250470606
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 828
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1661223727002
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] Transaction log:
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 502392610816 / 208762003456 / 41
+2022-08-23 03:02:07.138+0000 INFO [o.n.i.d.DiagnosticsManager] Storage files: (filename : modification date - size)
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore: 2022-08-22T21:02:07-0600 - 8.00 kB
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.counts.db.a: 2022-08-22T21:02:06-0600 - 96.00 B
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.counts.db.b: 2022-08-22T21:02:07-0600 - 160.00 B
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labelscanstore.db: 2022-08-22T21:02:07-0600 - 48.00 kB
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db: 2022-08-22T21:02:07-0600 - 8.00 kB
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2022-08-22T21:02:07-0600 - 8.00 kB
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db: 2022-08-22T21:02:07-0600 - 8.00 kB
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.id: 2022-08-22T21:02:07-0600 - 161.00 B
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db: 2022-08-22T21:02:07-0600 - 7.97 kB
+2022-08-23 03:02:07.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.id: 2022-08-22T21:02:07-0600 - 153.00 B
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index: 2022-08-22T21:02:07-0600 - 8.00 kB
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2022-08-22T21:02:07-0600 - 8.00 kB
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:07.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.141+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:07.141+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.141+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:07.141+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.141+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.transaction.db.0: 2022-08-22T21:02:07-0600 - 846.00 B
+2022-08-23 03:02:07.141+0000 INFO [o.n.i.d.DiagnosticsManager] Storage summary: 
+2022-08-23 03:02:07.141+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of store: 153.46 kB
+2022-08-23 03:02:07.141+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of mapped files: 151.96 kB
+2022-08-23 03:02:07.141+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2022-08-23 03:02:07.141+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Fulfilling of requirement 'Database available' makes database graph.db available.
+2022-08-23 03:02:07.141+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is ready.
+2022-08-23 03:02:07.141+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2022-08-23 03:02:07.341+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutdown started
+2022-08-23 03:02:07.341+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is unavailable.
+2022-08-23 03:02:07.342+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutting down 'graph.db' database.
+2022-08-23 03:02:07.342+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutdown started
+2022-08-23 03:02:07.342+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Checkpoint triggered by "Database shutdown" @ txId: 7 checkpoint started...
+2022-08-23 03:02:07.345+0000 INFO [o.n.k.i.s.c.CountsTracker] Rotated counts store at transaction 7 to [/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db/neostore.counts.db.a], from [/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db/neostore.counts.db.b].
+2022-08-23 03:02:07.354+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Checkpoint triggered by "Database shutdown" @ txId: 7 checkpoint completed in 12ms
+2022-08-23 03:02:07.354+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] No log version pruned, last checkpoint was made in version 0
+2022-08-23 03:02:07.370+0000 INFO [o.n.i.d.DiagnosticsManager] --- STOPPING diagnostics START ---
+2022-08-23 03:02:07.370+0000 INFO [o.n.i.d.DiagnosticsManager] --- STOPPING diagnostics END ---
+2022-08-23 03:02:07.377+0000 WARN [o.n.k.i.JvmChecker] You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 8, OpenJDK(TM) 8 or IBM J9.
+2022-08-23 03:02:07.377+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 21474836480 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2022-08-23 03:02:07.393+0000 INFO [o.n.g.f.m.e.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2022-08-23 03:02:07.401+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Creating 'graph.db' database.
+2022-08-23 03:02:07.402+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Requirement `Database available` makes database graph.db unavailable.
+2022-08-23 03:02:07.402+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is unavailable.
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] Neo4j Kernel properties:
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.connector.http.enabled=false
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.active_database=graph.db
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.edition=community
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.windows_service_name=neo4j
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.connector.bolt.enabled=false
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.connector.https.enabled=false
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.directories.import=import
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.databases.root=/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] Diagnostics providers:
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.internal.diagnostics.DiagnosticsManager
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_MEMORY
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_MEMORY
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] OPERATING_SYSTEM
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] CLASSPATH
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] LIBRARY_PATH
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_PROPERTIES
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] TIMEZONE_DATABASE
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] LINUX_SCHEDULERS
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] NETWORK
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] System memory information:
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] Total Physical memory: 62.66 GB
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] Free Physical memory: 47.92 GB
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] Committed virtual memory: 22.12 GB
+2022-08-23 03:02:07.402+0000 INFO [o.n.i.d.DiagnosticsManager] Total swap space: 2.00 GB
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Free swap space: 2.00 GB
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] JVM memory information:
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Free  memory: 945.04 MB
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Total memory: 1004.00 MB
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Max   memory: 15.67 GB
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'non-nmethods' (Non-heap memory): committed=3.06 MB, used=2.98 MB, max=7.25 MB, threshold=0.00 B
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=40.63 MB, used=39.61 MB, max=-1.00 B, threshold=0.00 B
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'profiled nmethods' (Non-heap memory): committed=8.44 MB, used=8.43 MB, max=116.38 MB, threshold=0.00 B
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=5.88 MB, used=5.44 MB, max=1.00 GB, threshold=0.00 B
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=96.00 MB, used=24.00 MB, max=-1.00 B, threshold=?
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=896.00 MB, used=19.35 MB, max=15.67 GB, threshold=0.00 B
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=12.00 MB, used=12.00 MB, max=-1.00 B, threshold=?
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'non-profiled nmethods' (Non-heap memory): committed=2.44 MB, used=2.06 MB, max=116.38 MB, threshold=0.00 B
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Operating system information:
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Operating System: Linux; version: 5.4.0-122-generic; arch: amd64; cpus: 16
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Max number of file descriptors: 1048576
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Number of open file descriptors: 12
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Process id: 10766@001
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] Local timezone: America/Denver
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] JVM information:
+2022-08-23 03:02:07.403+0000 INFO [o.n.i.d.DiagnosticsManager] VM Name: OpenJDK 64-Bit Server VM
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] VM Vendor: Private Build
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] VM Version: 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] VM Arguments: []
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] Java classpath:
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] /home/hchen/IntelliJProjects/java_SkylineGNN/target/BackboneIndex.jar
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] Library path:
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/java/packages/lib
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/x86_64-linux-gnu/jni
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/x86_64-linux-gnu
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/x86_64-linux-gnu
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib/jni
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] /usr/lib
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] System.properties:
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] sun.desktop = gnome
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.isalist = 
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] sun.arch.data.model = 64
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] user.timezone = America/Denver
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] user.country = US
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] sun.boot.library.path = /usr/lib/jvm/java-11-openjdk-amd64/lib
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.command = BackboneIndex.jar -m createDB -dbname C9_NY_NONE_5K -neo4jdb /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE -GraphInfo /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/C9_NY_NONE/C9_NY_NONE_5K
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] jdk.debug = release
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.endian = little
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] user.home = /home/hchen
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] user.language = en
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] file.separator = /
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] user.name = hchen
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] path.separator = :
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding = UTF-8
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] user.dir = /home/hchen/IntelliJProjects/java_SkylineGNN/target
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] sun.os.patch.level = unknown
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] (IANA) TimeZone Database Version:
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager]   TimeZone version: 2021e (available for 601 zone identifiers)
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] Linux scheduler information:
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] [none] mq-deadline 
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.404+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] [mq-deadline] none
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] Network information:
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] Interface eno1:
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:b58d:a739:6f29:6145%eno1
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.1.111
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] Interface lo:
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 127.0.0.1
+2022-08-23 03:02:07.405+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2022-08-23 03:02:07.421+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db
+2022-08-23 03:02:07.422+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store /home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db
+2022-08-23 03:02:07.422+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_4[v0.A.9]
+2022-08-23 03:02:07.440+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at LogPosition{logVersion=0, byteOffset=1215689})
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1661223726520, randomId=1576369497715822769, storeVersion=16094931155187206, upgradeTime=1661223726520, upgradeId=1}
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] Kernel version: dev
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] Store versions:
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore v0.A.9
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] Id usage:
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore: used=5000 high=5000
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=4 high=3
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore: used=3 high=2
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore: used=10000 high=10001
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=2 high=1
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore: used=1 high=0
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore: used=1 high=0
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore: used=15 high=14
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] Neostore records:
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] TIME (Creation time): 1661223726520
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 1576369497715822769
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 7
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] STORE_VERSION (Store format version): 16094931155187206
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1661223726520
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -160204068771
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 1215689
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1661223727259
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2022-08-23 03:02:07.441+0000 INFO [o.n.i.d.DiagnosticsManager] Transaction log:
+2022-08-23 03:02:07.442+0000 INFO [o.n.i.d.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2022-08-23 03:02:07.442+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2022-08-23 03:02:07.442+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2022-08-23 03:02:07.442+0000 INFO [o.n.i.d.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 502392610816 / 208760279040 / 41
+2022-08-23 03:02:07.442+0000 INFO [o.n.i.d.DiagnosticsManager] Storage files: (filename : modification date - size)
+2022-08-23 03:02:07.442+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore: 2022-08-22T21:02:07-0600 - 8.00 kB
+2022-08-23 03:02:07.442+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.counts.db.a: 2022-08-22T21:02:07-0600 - 160.00 B
+2022-08-23 03:02:07.442+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.counts.db.b: 2022-08-22T21:02:07-0600 - 160.00 B
+2022-08-23 03:02:07.442+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.442+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labelscanstore.db: 2022-08-22T21:02:07-0600 - 48.00 kB
+2022-08-23 03:02:07.442+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db: 2022-08-22T21:02:07-0600 - 8.00 kB
+2022-08-23 03:02:07.442+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2022-08-22T21:02:07-0600 - 8.00 kB
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db: 2022-08-22T21:02:07-0600 - 79.98 kB
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.id: 2022-08-22T21:02:07-0600 - 17.00 B
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db: 2022-08-22T21:02:07-0600 - 406.36 kB
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.id: 2022-08-22T21:02:07-0600 - 25.00 B
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index: 2022-08-22T21:02:07-0600 - 8.00 kB
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2022-08-22T21:02:07-0600 - 8.00 kB
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:07.443+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.444+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db: 2022-08-22T21:02:06-0600 - 0.00 B
+2022-08-23 03:02:07.444+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.444+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:07.444+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.444+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db: 2022-08-22T21:02:06-0600 - 8.00 kB
+2022-08-23 03:02:07.444+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db.id: 2022-08-22T21:02:07-0600 - 9.00 B
+2022-08-23 03:02:07.444+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.transaction.db.0: 2022-08-22T21:02:07-0600 - 1.16 MB
+2022-08-23 03:02:07.444+0000 INFO [o.n.i.d.DiagnosticsManager] Storage summary: 
+2022-08-23 03:02:07.444+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of store: 1.77 MB
+2022-08-23 03:02:07.444+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of mapped files: 622.33 kB
+2022-08-23 03:02:07.444+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2022-08-23 03:02:07.444+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Fulfilling of requirement 'Database available' makes database graph.db available.
+2022-08-23 03:02:07.444+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is ready.
+2022-08-23 03:02:07.444+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2022-08-23 03:02:07.775+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutdown started
+2022-08-23 03:02:07.775+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is unavailable.
+2022-08-23 03:02:07.775+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutting down 'graph.db' database.
+2022-08-23 03:02:07.775+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutdown started
+2022-08-23 03:02:07.775+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Checkpoint triggered by "Database shutdown" @ txId: 13 checkpoint started...
+2022-08-23 03:02:07.777+0000 INFO [o.n.k.i.s.c.CountsTracker] Rotated counts store at transaction 13 to [/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db/neostore.counts.db.b], from [/home/hchen/IntelliJProjects/java_SkylineGNN/Data/C9_NY/db/C9_NY_NONE/C9_NY_NONE_5K/databases/graph.db/neostore.counts.db.a].
+2022-08-23 03:02:07.787+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Checkpoint triggered by "Database shutdown" @ txId: 13 checkpoint completed in 12ms
+2022-08-23 03:02:07.787+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] No log version pruned, last checkpoint was made in version 0
+2022-08-23 03:02:07.805+0000 INFO [o.n.i.d.DiagnosticsManager] --- STOPPING diagnostics START ---
+2022-08-23 03:02:07.805+0000 INFO [o.n.i.d.DiagnosticsManager] --- STOPPING diagnostics END ---
