@@ -269,10 +269,36 @@ python train_script.py --gnn_name Transformer --edge_dim 3
 
 ### Step 8: Test a Pre-trained GNN Model 
 ```
-cd SkylineGNN_py/utilities/validation_dataset.py
--------
-Python validation_dataset.py
+cd SkylineGNN_py/utilities/
+
 ```
+
+Modify configuration in `SkylineGNN_py/utilities/validation_dataset.py`:
+```
+path = "<PATH_TO_YOUR_PROCESSED_GRAPH_DATA>"
+train_paths_folder = "<PATH_TO_YOUR_SAVED_CHECKPOINT>"
+data_folder = "<PATH_TO_YOUR_PROCESSED_GRAPH_DATA>"
+save_folder = "<PATH_TO_YOUR_TARGET_DIR_FOR_MAPPED_FILE>"
+checkpoint_folder = '<PATH_TO_YOUR_SAVED_CHECKPOINT_FOLDER>'
+check_point_file = checkpoint_folder + '<PATH_TO_YOUR_CHECKPOINT_FILENAME>'
+
+model_name = "Transformer"
+n_nodes = <NUM_OF_NODES>
+embedding_dim = 128
+hidden_dim = 128
+
+node_dim = 2
+edge_dim = 3
+batch_size = 8
+enable_embed = True
+output_dim = 3
+heads = 1
+conn_loss_enable = True
+enable_edge_attr = True
+```
+
+Then run:
+`Python validation_dataset.py`
 
 
 ### Step 9: Compare there methods by using compareBBS and DTWComparison cases in RunningScripts.java in SkylineGNN_java
