@@ -3,6 +3,7 @@ Take C9_NY_NONE_5K as an example.
 
 ## Raw Graph Datasets
 Download C9_NY from http://users.diag.uniroma1.it/challenge9/download.shtml
+
 <img width="423" alt="image" src="https://github.com/user-attachments/assets/e4a9411b-ac61-448f-96a9-2378b854a9b3">
 
 ## Processed graphs with edge weights and subgraphs
