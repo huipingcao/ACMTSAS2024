@@ -20,30 +20,41 @@ See our results at [results.md](results.md)
     - `pip install -r requirements.txt`
 
 **To install and run neo4j on Linux via SSH, you can follow below steps:**
+
 `ssh username@your_server_ip`
 
-**Step1: Install Java (OpenJDK 11) **
+**Step1: Install Java (OpenJDK 11)**
+
 `sudo apt install openjdk-11-jdk -y`
  
 **Step 2: Add the Neo4j Repository**
+
 Add Neo4j’s GPG key:
+
 `wget -O - https://debian.neo4j.com/neotechnology.gpg.key | sudo apt-key add -`
 
 Add the Neo4j APT repository to your sources list:
+
 `echo "deb https://debian.neo4j.com stable 4.4" | sudo tee -a /etc/apt/sources.list.d/neo4j.list`
 
 Update the package list:
+
 `sudo apt update`
 
 **Step 3: Install Neo4j**
+
 `sudo apt install neo4j -y`
 
 **Step 4: Start and Enable Neo4j**
+
 `sudo systemctl start neo4j`
+
 `sudo systemctl enable neo4j`
 
 **Step 5: Confirm Neo4j is Running**
+
 `sudo systemctl status neo4j`
+
 
 ## Preprocessing
 
