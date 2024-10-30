@@ -237,7 +237,9 @@ Important notes:
 
 
 ---
-## Geometric Pytroch Code
+## Training
+
+### Geometric Pytroch Code
 
 - Running the code in the file `SkylineGNN_py/003/train_script.py`.
 - The file `SkylineGNN_py/003/MultiCostNetworks.py` is responsible for transferring the text training sample files to geometric compatible file. 
@@ -266,6 +268,7 @@ python train_script.py --gnn_name Transformer --edge_dim 3
 
 ```
 
+## Testing
 
 ### Step 8: Test a Pre-trained GNN Model 
 ```
@@ -300,6 +303,8 @@ enable_edge_attr = True
 Then run:
 `Python validation_dataset.py`
 
+
+## Evaluation
 
 ### Step 9: Compare there methods by using compareBBS and DTWComparison cases in RunningScripts.java in SkylineGNN_java
 
