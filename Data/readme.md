@@ -14,9 +14,9 @@ C9_NY_NONE_5K: [NodeInfo.txt](Data/C9_NY_NONE_5K/NodeInfo.txt) and [SegInfo.txt]
 ## Processed neo4j Graphs and Abstract Graphs (Levels)
 See [C9_NY_NONE_5K db](Data/C9_NY_NONE_5K/db/databases) for example. 
 
-<img width="511" alt="image" src="https://github.com/user-attachments/assets/e3860353-f6f8-4bc4-bd64-c808f7e02ab2"> 
+<img width="285" alt="image" src="https://github.com/user-attachments/assets/fd8f8352-c09f-43eb-810e-c835390e8eb1">
 
-<img width="877" alt="image" src="https://github.com/user-attachments/assets/92e43d34-e462-4181-8ba2-24e5af2b5338">
+<img width="867" alt="image" src="https://github.com/user-attachments/assets/d96d6ab6-1efe-4fbb-a3bf-3473762b1501">
 
 ## BBS Training and Testing Datasets
 See [C9_NY_NONE_5K bbs results](Data/bbs_results) for an example of C9_NY_NONE_5K training datasets.
@@ -29,7 +29,7 @@ e.g. [bbs_0_2623_C9_NY_NONE_5K.log](Data/bbs_results/bbs_0_2623_C9_NY_NONE_5K.lo
   - `0-->2623,[ 90604.0 1602.0 1971.0]  (0)--[5013]-->(1)--[5014]-->(2)--[5139]-->(3)--[5201]-->(4)--[5170]-->(5)--[4905]-->(469)--[1585]-->(447)--[1528]-->(444)--[1522]-->(434)--[1488]-->(430)--[1474]-->(426)--[1467]-->(423)--[1460]-->(146)--[365]-->(142)--[357]-->(143)--[5382]-->(1717)--[5380]-->(103)--[281]-->(102)--[5374]-->(1714)--[5376]-->(1307)--[5375]-->(1219)--[1901]-->(1248)--[1551]-->(1238)--[1509]-->(1235)--[1502]-->(1236)--[1704]-->(1246)--[1543]-->(1247)--[1225]-->(2734)--[1385]-->(2335)--[217]-->(2334)--[211]-->(2336)--[248]-->(2345)--[1211]-->(2722)--[1202]-->(2723)--[1201]-->(2624)--[1001]-->(2623)`
 
 ## Processed Training and Testing .pt files (Labelled) 
-<img width="606" alt="image" src="https://github.com/user-attachments/assets/90e5fd13-ca8e-4dbb-bfbb-1a130b0e100e">
+<img width="610" alt="image" src="https://github.com/user-attachments/assets/eb2f2d00-7466-4555-805b-e6b6087ce7b8">
 
 - We predict the label for each node in the target graph for a query from start node to destination node.
 - A training instance is a set of whole graphs consisting labelled nodes
