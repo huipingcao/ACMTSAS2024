@@ -92,6 +92,8 @@ Generate weighted edge files with script `SkylineGNN_py/DataProcess/dataprocess.
 ```
 python SkylineGNN_py/DataProcess/dataprocess.py --graph_folder Data/C9_NY_NONE/ --data_name [BAY|CTR|CAL|NY|E|NA|SF] --relation [none|corr|anti] --num_dim 2
 ```
+or run bash file: [process_raw_datasets.sh](bash_commands/process_raw_datasets.sh)
+`bash bash_commands/process_raw_datasets.sh`
 
 
 ### Step 4: Set up the environment to run the Java code
