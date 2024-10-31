@@ -193,7 +193,6 @@ CUDA Version: 11.4, Java version: 11.0.15, java-11-openjdk-amd64, Apache Maven 3
 
 ### Step 5: Create Neo4jDB
 Purpose: Create neo4jdb per dataset, per relation.\
-More commands are in below Section [Full Commands for neo4j database, subGraph, TrainingSet generation, and DTW comparison](https://github.com/huipingcao/ACMTSAS2024/blob/main/README.md#full-commands-for-neo4j-database-subgraph-trainingset-generation-and-dtw-comparison-for-all-three-methods-bbs-gnn-tsp-gnn)
 
 ```
     >-m createDB -dbname <dbname> -neo4jdb <db_path> -GraphInfo <node_edge_file_path>
